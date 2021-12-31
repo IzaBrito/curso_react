@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+  color:hotpink
+}
+
+.conjunto {
+  margin-top: 40px;
+  background-image:image-set(fundo);
+}
+
+.perfil {
+  background-color: lightgreen;
+  margin-left: 40px;
+  margin-right: 800pt;
+}
+
+.curso {
+  background-color: orangered;
+  margin-left: 800pt;
+  margin-right: 40px;
+}
+
+select {
+  background-color: olivedrab;
+}
