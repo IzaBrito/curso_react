@@ -12,28 +12,45 @@ code {
     monospace;
 }
 
-h1 {
-  text-align: center;
-  color:hotpink
+.titulo {
+  background-color:rosybrown;
+  height: 50pt;
+  width: 100%;
+  margin-top:0%;
+  display: inline-block;
 }
 
-.conjunto {
-  margin-top: 40px;
-  background-image:image-set(fundo);
+h1 {
+  text-align: center;
+  color:royalblue;
+}
+
+
+div {
+  text-align: center;
 }
 
 .perfil {
-  background-color: lightgreen;
-  margin-left: 40px;
-  margin-right: 800pt;
+  background-color: wheat;
+  width: 700pt;
+  height: 200pt;
+  display:table-cell;
+}
+
+.rosa {
+  width: 20pt;
+  height: 40pt;
+  background-color:rosybrown;
+  display:table-cell;
 }
 
 .curso {
-  background-color: orangered;
-  margin-left: 800pt;
-  margin-right: 40px;
+  background-color: wheat;
+  width: 700pt;
+  height: 600pt;
+  display:table-cell;
 }
 
 select {
-  background-color: olivedrab;
+  background-color:slategray;
 }

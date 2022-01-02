@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-
 import './index.css'
 
 class App extends React.Component{
@@ -49,11 +48,15 @@ class App extends React.Component{
 
   render(){
     const ComboCidades = () => this.Cidade()
-    const titulo = <h1>Perfil do Estudante</h1>
+    const titulo = <h1>Perfil da Estudante</h1>
 
     return(
       <React.Fragment>
-        <div className='conjunto' src='fundo.jpg' width={900} height={900}>
+        <div className='conjunto'>
+          <div className='titulo'>
+            <h1>Izabelle</h1>
+          </div>
+          <div className='rosa'></div>
           <div className='perfil'>
             {titulo}
             <p>Qual o seu nome? <input type='text' value={this.state.nome} onChange={this.modificarNome}/></p>
@@ -62,11 +65,13 @@ class App extends React.Component{
             <p><b>Selecione</b> sua cidade:</p>
             <ComboCidades />
           </div>
+          <div className='rosa'></div>
           <div className='curso'>
             <h1>Cursos de TI</h1>
             <p><b>Selecione</b> o curso da sua escolha:</p>
             {this.Cursos()}
           </div>
+          <div className='rosa'></div>
         </div>
       </React.Fragment>
     )
